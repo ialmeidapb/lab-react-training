@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.border{
+  display: flex;
+  
+}
+
+
+.driverImg{
+  width:300px;
+  height: auto;
+
+}
+
+.text-white{
+  color: white;
+}
+
+.driverBox{
+  background-color:#455EB5;
+  margin: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+
+}
