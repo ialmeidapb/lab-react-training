@@ -1,3 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 import React from 'react';
 import IdCard from "./IdCard"
@@ -7,6 +10,13 @@ import BoxColor from "./BoxColor"
 import CreditCard from "./CreditCard"
 import Rating from "./Rating"
 import DriverCard from "./DriverCard"
+import LikeButton from "./LikeButton"
+import ClickablePicture from "./ClickablePicture"
+import Dice from "./Dice"
+import Carousel from "./Carousel"
+import NumbersTable from "./NumbersTable"
+
+
 
 
 
@@ -107,8 +117,30 @@ color="white" />
   }} />
 
 
+<h1>Like Button</h1>
+<LikeButton/>
 
 
+
+<h1>ClickablePic</h1>
+<ClickablePicture/>
+
+
+<h1>Dice</h1>
+<Dice/>
+
+<h1>Carousel</h1>
+<Carousel
+  imgs={[
+    'https://randomuser.me/api/portraits/women/1.jpg',
+    'https://randomuser.me/api/portraits/men/1.jpg',
+    'https://randomuser.me/api/portraits/women/2.jpg',
+    'https://randomuser.me/api/portraits/men/2.jpg'
+  ]}
+/>
+
+
+<NumbersTable limit={12} />
     </div>
   );
 }

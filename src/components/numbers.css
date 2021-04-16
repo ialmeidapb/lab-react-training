@@ -1,0 +1,10 @@
+.red-white-boxes{
+    width: 8rem;
+    border: solid 1px black;
+}
+
+.out{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px
+}
