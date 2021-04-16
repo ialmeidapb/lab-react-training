@@ -15,6 +15,7 @@ import ClickablePicture from "./ClickablePicture"
 import Dice from "./Dice"
 import Carousel from "./Carousel"
 import NumbersTable from "./NumbersTable"
+import Facebook from './Facebook';
 
 
 
@@ -139,10 +140,13 @@ color="white" />
   ]}
 />
 
-
+<h1>NumbersTable</h1>
 <NumbersTable limit={12} />
     </div>
   );
 }
+
+
+<Facebook />
 
 export default App;
