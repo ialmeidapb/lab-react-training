@@ -16,6 +16,7 @@ import Dice from "./Dice"
 import Carousel from "./Carousel"
 import NumbersTable from "./NumbersTable"
 import Facebook from './Facebook';
+import SignupPage from './SignupPage';
 
 
 
@@ -142,11 +143,21 @@ color="white" />
 
 <h1>NumbersTable</h1>
 <NumbersTable limit={12} />
+    
+<h1>Facebook</h1>    
+<Facebook />    
+ 
+ 
+ 
+<h1>SignupPage</h1>
+<SignupPage />
+ 
+ 
     </div>
   );
 }
 
 
-<Facebook />
+
 
 export default App;
